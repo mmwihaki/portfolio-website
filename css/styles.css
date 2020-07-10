@@ -26,3 +26,11 @@ p{
   border-style: solid;
   border-color: #cac2b9;
 }
+
+a.button:hover {
+  background-color: #cac2b9;
+  color: white;
+}
+#introduction{
+  background-color: salmon;
+}
