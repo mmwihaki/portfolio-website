@@ -15,14 +15,20 @@ p{
   color: black;
 }
 
-}
-
 a.button:hover {
   background-color: #cac2b9;
   color: white;
 }
-.introduction{
-  background-color;
+.antman{
+  background-color: inherit;
+  font-weight: bolder;
+}
+
+.hulk{
+  background-color: inherit;
+  font-weight: normal;
+  font-family: fantasy;
+
 }
 a.button{
   display: inline-block;
@@ -30,7 +36,7 @@ a.button{
     margin-left: auto;
     margin-right: 0px;
     background-color: purple;
-    color: black;
+    color: white;
     padding: 15px 32px;
     text-decoration: none;
     font-size: 16px;
@@ -46,6 +52,6 @@ a.button{
 }
 
 a.button:hover {
-  background-color: pink;
-  color: white;
+  background-color: white;
+  color: black;
 }
