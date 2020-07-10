@@ -4,25 +4,39 @@ body{
 
 h1{
   color: purple;
-
 }
 
 h2{
   color: black;
 }
 
+h3{
+  color: cyan;
+}
+
+h4{
+  color: blue;
+}
+
 p{
   color: black;
+}
+
+.hello{
+  border-radius: 25px;
+  background: #F9EBEA;
+  padding: 20px;
+  width: 50%;
+  height: 300px;
+  margin-top: 18px;
+
 }
 
 a.button:hover {
   background-color: #cac2b9;
   color: white;
 }
-.antman{
-  background-color: inherit;
-  font-weight: bolder;
-}
+
 
 .hulk{
   background-color: inherit;
@@ -32,18 +46,18 @@ a.button:hover {
 }
 a.button{
   display: inline-block;
-   overflow: hidden;
-    margin-left: auto;
-    margin-right: 0px;
-    background-color: purple;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    margin-top:2px;
-    cursor: pointer;
-    border-style: solid;
-    border-color: purple;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: 0px;
+  background-color: purple;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top:2px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: purple;
 }
 
 }
@@ -54,4 +68,33 @@ a.button{
 a.button:hover {
   background-color: white;
   color: black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
 }
