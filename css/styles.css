@@ -28,13 +28,9 @@ p{
 
 }
 
-a.button:hover {
-  background-color: #cac2b9;
-  color: white;
-}
 
 a.button{
-  background-color:rgb(86, 78, 255);
+  background-color:gray;
   border-bottom-color:rgb(255, 255, 255);
   border-bottom-left-radius:0px;
   border-bottom-right-radius:0px;
@@ -78,6 +74,7 @@ a.button{
   transition-duration:0.8s;
   transition-property:all;
   transition-timing-function:ease;
+  margin: 16px;
 }
 
 }
@@ -102,7 +99,7 @@ a.button:hover {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -154,4 +151,31 @@ text-size-adjust:100%;
 top:0px;
 vertical-align:middle;
 width:340.969px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.navbutton {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #cac2b9;
+  margin: 18px;
+  margin-top: 16px;
+  max-width: 100%
+}
+
+a.navbutton:hover {
+  background-color: #cac2b9;
+  color: white;
 }
