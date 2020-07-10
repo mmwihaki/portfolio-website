@@ -1,11 +1,12 @@
-p{
-  color: black;
-  text-align: justify;
+.salut{
+  font-size: 44px;
+  color: white;
+
 }
 
 .hello{
   border-radius: 25px;
-  background: white;
+  background: #2f2fa2;
   padding: 20px;
   width: 33.3%;
   height: 350px;
@@ -30,7 +31,7 @@ p{
 
 
 a.button{
-  background-color:gray;
+  background-color:#2f2fa2;
   border-bottom-color:rgb(255, 255, 255);
   border-bottom-left-radius:0px;
   border-bottom-right-radius:0px;
@@ -83,13 +84,13 @@ a.button{
 }
 
 a.button:hover {
-  background-color: white;
+  background-color: #f64672;
   color: black;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #2f2fa2;
 
   top: 0;
   width: 100%;
@@ -98,7 +99,7 @@ a.button:hover {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #2f2fa2;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
@@ -156,7 +157,7 @@ width:340.969px;
 .container{
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #2f2fa2;
 }
 
 .navbutton {
