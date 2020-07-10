@@ -35,7 +35,7 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 33.3%;
   padding: 10px
   height: absolute;
 }
@@ -44,7 +44,7 @@
 .row:after {
   content: "";
   display: table;
-  clear: both;
+  clear: all;
 }
 
 .experience{
