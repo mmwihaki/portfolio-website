@@ -38,8 +38,16 @@
   width: 30%;
   padding: 10px
   height: absolute;
-  margin: 12px;
-  margin-left: 18px;
+  margin: 30px;
+}
+
+.workcolumn {
+  float: left;
+  width: 20%;
+  padding: 10px
+  height: absolute;
+  margin: 35px;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
