@@ -1,19 +1,7 @@
-.salut{
-  font-size: 44px;
-  color: white;
-  margin-top: 200px;
-
+.row{
+  align: vertical-center;
 }
 
-.hello{
-  background: transparent;
-  padding: 20px;
-  width: 33.3%;
-  height: 400px;
-  margin-top: 18px;
-  display: inline-block;
-
-}
 
 .aboutme{
   background: white;
@@ -25,7 +13,7 @@
   display: inline-block;
   margin-top: 18px;
   margin-left: 18px;
-  margin-right: 22px;  
+  margin-right: 22px;
 }
 
 * {
@@ -48,6 +36,15 @@
   height: absolute;
   margin: 35px;
   text-align: center;
+}
+
+.salutcolumn {
+  float: left;
+  width: 47%;
+  padding: 12px;
+  height: absolute;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 /* Clear floats after the columns */
