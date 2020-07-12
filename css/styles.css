@@ -7,23 +7,18 @@
   background: transparent;
   width: 100%;
   height: absolute;
-  align: right;
-  padding: 20px 20px;
+  align: center;
   display: inline-block;
-  margin-top: 18px;
   margin-left: 18px;
   margin-right: 22px;
 }
 
 .aboutmedesc{
   background: transparent;
+  width: 100%;
   height: absolute;
   align: center;
-  padding: 20px 20px;
-  display: inline-block;
-  margin-top: 18px;
   margin-left: 18px;
-  margin-right: 22px;
 }
 
 * {
@@ -37,6 +32,13 @@
   padding-top: 10px;
   height: absolute;
   margin: 30px;
+}
+
+.desccolumn {
+  float: left;
+  width: 48%;
+  padding: 60px;
+  height: absolute;
 }
 
 .workcolumn {
